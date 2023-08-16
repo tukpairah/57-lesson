@@ -1,0 +1,37 @@
+.body {
+  background-color: #4b4343;
+}
+
+.container {
+  width: 500px;
+
+  margin: 25px auto;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper::before {
+  content: '';
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background-color: #c41717;
+  border-radius: 50px;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+}
+
+.square {
+  transform: translate(947px, -95px);
+  height: 70px;
+  width: 70px;
+  background-color: #232dbb;
+  border-radius: 50px;
+}
+
